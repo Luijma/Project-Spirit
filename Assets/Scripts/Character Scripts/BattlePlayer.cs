@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BattlePlayer : BattleUnit
 {
-    protected BattlePlayer(string uiD, string name, int maxHP, int maxMP, int currentHP, int currentMP) : base (uiD, name, maxHP, maxMP, currentHP, currentMP)
+    public BattlePlayer(string uiD, string name, int maxHP, int maxMP, int currentHP, int currentMP) : base (uiD, name, maxHP, maxMP, currentHP, currentMP)
     {
         //negative number on movevalue means move deals damage.
         //positive number on movevalue means move heals damage.
