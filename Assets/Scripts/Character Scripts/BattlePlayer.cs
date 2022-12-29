@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class BattlePlayer : BattleUnit
 {
+    // This is so that we can use the name values to automatically set charInfo
+    public static readonly Dictionary<string, int> PlayerCharIconNums = new Dictionary<string, int>()
+    {
+        { "Linneus", 0 },
+        { "Ray", 1 },
+        { "Pepper", 2 }
+
+    };
     public BattlePlayer(string uiD, string name, int maxHP, int maxMP, int currentHP, int currentMP) : base (uiD, name, maxHP, maxMP, currentHP, currentMP)
     {
         //negative number on movevalue means move deals damage.
