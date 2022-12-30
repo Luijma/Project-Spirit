@@ -388,7 +388,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8223881730183583193}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -421,8 +421,9 @@ MonoBehaviour:
   characterIcon: {fileID: 8223881730410976666}
   healthPoints: {fileID: 8068521027123314087}
   characters:
-  - {fileID: 414957444, guid: 1ab0b9b9c16e702458e486cb99ed987a, type: 3}
-  - {fileID: -1151376380, guid: 1ab0b9b9c16e702458e486cb99ed987a, type: 3}
+  - {fileID: 1535968160, guid: 1ab0b9b9c16e702458e486cb99ed987a, type: 3}
+  - {fileID: -638331050, guid: 1ab0b9b9c16e702458e486cb99ed987a, type: 3}
+  - {fileID: 1569982490, guid: 1ab0b9b9c16e702458e486cb99ed987a, type: 3}
 --- !u!1 &8223881730410976644
 GameObject:
   m_ObjectHideFlags: 0

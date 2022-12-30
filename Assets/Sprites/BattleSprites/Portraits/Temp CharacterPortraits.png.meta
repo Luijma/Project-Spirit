@@ -116,10 +116,52 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LinneusPortrait
+      name: 0-Linneus Battle Portrait
       rect:
         serializedVersion: 2
         x: 0
+        y: 0
+        width: 367
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326bf33a6d296b24fbbec8b6a5b38a2a
+      internalID: 1535968160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1-Ray Battle Portrait
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 0
+        width: 366
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58b26022a3557342978fde05bdddff6
+      internalID: -638331050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2-Pepper Battle Portrait
+      rect:
+        serializedVersion: 2
+        x: 731
         y: 0
         width: 366
         height: 366
@@ -130,29 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da1398693fe92fc45909f72afbab2986
-      internalID: 414957444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RayPortrait
-      rect:
-        serializedVersion: 2
-        x: 366
-        y: 0
-        width: 365
-        height: 366
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7fa30bef3e396a489bd8952d7cd1ac2
-      internalID: -1151376380
+      spriteID: ec79e1fccaf319a40a38a0cc01c380bf
+      internalID: 1569982490
       vertices: []
       indices: 
       edges: []
@@ -160,7 +181,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8854962bf9918474bbd05dffc837a1f4
+    spriteID: ef4c5144af259d3479ddc955a63b0958
     internalID: 0
     vertices: []
     indices: 
@@ -168,8 +189,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      LinneusPortrait: 414957444
-      RayPortrait: -1151376380
+      1-Ray Battle Portrait: -638331050
+      2-Pepper Battle Portrait: 1569982490
+      0-Linneus Battle Portrait: 1535968160
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

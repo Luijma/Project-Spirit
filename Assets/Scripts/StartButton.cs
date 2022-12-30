@@ -8,6 +8,6 @@ public class StartButton : MonoBehaviour
     // Start is called before the first frame update
     public void StartOnClick()
     {
-        SceneManager.LoadSceneAsync("Battle_Scene");
+        LevelLoader.LoadNextScene("Battle_Scene");
     }
 }
