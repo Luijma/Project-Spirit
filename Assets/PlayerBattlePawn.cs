@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class PlayerBattlePawn : MonoBehaviour
 {
-    Animator anim;
+    public Animator anim;
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
+        // anim = GetComponent<Animator>();
+    }
+
+    public void InitialSetup()
+    {
+        //Nothing to do yet
     }
 
     // Update is called once per frame

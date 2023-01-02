@@ -16,7 +16,16 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 79af1a8cd6bdd894c941b61065386b87
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: f5978a5ca23dd8b45b748491fb232721
+    m_Address: Assets/Animations/Sprite Library/Battle Libraries/0-Linneus Battle
+      Lib.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e75d6e2ded5230e4c8e4b1421ec83934
+    m_Address: Assets/Animations/Sprite Library/Battle Libraries/1-Ray Battle Lib.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 13fb6b19aedf16b4faef3126965a8447, type: 2}
   m_SchemaSet:

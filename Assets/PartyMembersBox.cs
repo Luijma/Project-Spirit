@@ -23,6 +23,7 @@ public class PartyMembersBox : MonoBehaviour
             {
                 if (MainManager.Instance.PlayerParty.ContainsKey(bp))
                 {
+                    Debug.Log("Trying to populate info for " + bp);
                     BattleCharacterInfo infoIcon = Instantiate(BattleCharacterInfoPrefab, gameObject.transform);
                     infoIcon.InitialSetup(BattlePlayer.PlayerCharIconNums[bp], bp);
                     battleCharacterInfoList.Add(infoIcon);
